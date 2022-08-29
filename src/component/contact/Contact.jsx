@@ -40,14 +40,14 @@ const Contact = () => {
               <a href='mailto:asingh@cy.iitr.ac.in' target='_blank'>Send a message</a>
             </article>
                
-            <article className='contact-option'>
+            <article className='contact-option whatsapp'>
               <SiSkypeforbusiness className='contact-option-icon'/>
               <h4>Skype</h4>
               <h5>live:c7b970f7de3d86b0</h5>
               <a href='https://join.skype.com/invite/jK2Xyvd9LKVl' target='_blank'>Send a message</a>
             </article>
 
-            <article className='contact-option'>
+            <article className='contact-option whatsapp'>
               <BsWhatsapp className='contact-option-icon'/>
               <h4>WhatsApp</h4>
               <h5>+919582613158</h5>

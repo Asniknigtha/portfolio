@@ -1,5 +1,5 @@
  .contact-container {
-    /* width: 58%; */
+     height: 100%; 
     display:grid;
     grid-template-columns: 1fr 2fr;
     gap:12%
@@ -69,10 +69,15 @@ input, textarea{
 } */
 /* ---------------------------------MEDIA QUERIES (SMALL DEVICES)--------------------------------------------*/
 
-/* @media screen and (max-width:600px){
+ @media screen and (max-width:700px){
     .contact-container {
     
-     width: var(--container-width-sm);
+        grid-template-columns: 1fr;
+        gap:8%;
+        height: 90%; 
+    }
+    .whatsapp {
+        display :none;
     }
     
-} */
+} 
