@@ -74,7 +74,7 @@ input, textarea{
     
         grid-template-columns: 1fr;
         gap:8%;
-        height: 90%; 
+        height: 85%; 
     }
     .whatsapp {
         display :none;
